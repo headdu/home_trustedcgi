@@ -1,0 +1,7 @@
+version: '3'
+services:
+  trusted-cgi:
+    image: reddec/trusted-cgi
+    ports:
+      - "3434:3434"
+    restart: unless-stopped
